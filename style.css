@@ -1,0 +1,133 @@
+   * {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;  */
+  } 
+   
+  body {
+    /* font-family: Arial, sans-serif; */
+     background-color: #cec5c5; 
+    /* color: #0c0808; */
+     /* line-height: 1.6;  */
+  }
+  
+  .team-section {
+     text-align: center;  
+     padding: 2rem 1rem; 
+     margin-left: 2rem;
+     margin-right: 2rem;
+  }
+  
+  .team-title {
+    font-size: 1rem;
+    color: #82b48c;
+    /* margin-bottom: 0.5rem; */
+  }
+  .ourtalents {
+    font-size: 2rem;
+    color: black;
+  }
+  .team-description {
+    font-size: 1rem;
+    color: #191616;
+   margin-bottom: 2rem; 
+  }
+  
+  .team-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+     gap: 1.5rem; 
+     padding: 0 1rem; 
+  }
+  
+  .team-card {
+    background: white ;
+    padding: 1.5rem;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
+  }
+  
+  .team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-name {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-role {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .view-team-btn {
+    background-color: #376477;
+    color: #fff;
+    padding: 0.75rem 1.5rem; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    /* transition: background 2s;  */
+  } 
+  
+  .view-team-btn:hover {
+    background-color: #555;
+  }
+  
+  .footer {
+    background-color: #65c879;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .social-icons {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .team-title {
+      font-size: 1.8rem;
+    }
+  
+    .team-description {
+      font-size: 0.9rem;
+    }
+  
+    .view-team-btn {
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-title {
+      font-size: 1.5rem;
+    }
+  
+    .team-description {
+      font-size: 0.8rem;
+    }
+  
+    .team-card {
+      padding: 1rem;
+    }
+  }
